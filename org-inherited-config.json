@@ -9,7 +9,6 @@
     "onboarding": false,
     "requireConfig": "optional",
     "platformCommit": true,
-    "autodiscover": false,
     "enabledManagers": ["crossplane"],
     "tekton": {
       "fileMatch": ["\\.yaml$","\\.yml$"],
@@ -60,7 +59,6 @@
     },
     "forkProcessing": "enabled",
     "dependencyDashboard": false,
-    "platform": "github",
     "prHourlyLimit": 50,
     "baseBranches": ["master", "test-branch"]
   }
